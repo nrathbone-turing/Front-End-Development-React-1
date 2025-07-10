@@ -1,12 +1,53 @@
-# React + Vite
+# Productivity Dashboard Clock
+A colorful `React` + `Vite`-powered digital clock widget that displays the current date and time, using `date-fns` for formatting.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo
 
-Currently, two official plugins are available:
+![Screenshot of the clock widget](./screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Dynamically updates every second
+- Uses `date-fns` for clean, readable formatting
+- Styled with custom CSS for readability and visual appeal
+- Easy to expand as a reusable dashboard widget
 
-## Expanding the ESLint configuration
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development or testing.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Prerequisites
+- [Node.js](https://nodejs.org/) (v16+ recommended)
+- [npm](https://www.npmjs.com/)
+
+## Installation
+1. Clone the Repo
+```
+git clone git@github.com:nrathbone-turing/Front-End-Development-React-1.git
+cd ./1_react_fundamentals/lab_building_dynamic_color_clock_with_react_and_npm/color-clock
+```
+2. Install dependencies
+```
+npm install
+```
+3. Start the development server
+```
+npm run dev
+```
+4. Open in browser
+Vite should give you a local dev URL to open
+```
+http://localhost:5173/
+```
+
+## Depdendencies
+- React
+- Vite
+- date-fns
+
+Install them automatically with `npm install`, or manually if needed:
+```
+npm install react react-dom date-fns
+npm install --save-dev vite
+```
+
+## License
+MIT — feel free to use or remix!
