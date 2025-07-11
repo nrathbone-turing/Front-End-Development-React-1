@@ -1,9 +1,10 @@
 import React from "react";
-function ComponentName() {
+function NavBar() {
   return (
-    <div id="component-name">
-      Component Content
-    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+    </nav>
   );
 }
-export default ComponentName;
+export default NavBar;
