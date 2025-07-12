@@ -7,3 +7,6 @@
 [submodule "4_event_handlers_in_react/4_event_handlers_in_react/react-event-handling-vite-lab"]
 	path = 4_event_handlers_in_react/4_event_handlers_in_react/react-event-handling-vite-lab
 	url = https://github.com/nrathbone-turing/react-event-handling-vite-lab
+[submodule "5_state_foundations/5_state_foundations/lab-react-hooks-state"]
+	path = 5_state_foundations/5_state_foundations/lab-react-hooks-state
+	url = https://github.com/nrathbone-turing/lab-react-hooks-state
