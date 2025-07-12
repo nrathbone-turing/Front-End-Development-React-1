@@ -4,3 +4,6 @@
 [submodule "3_react_app_structure_and_design/3_react_app_structure_and_design/lab-product-dashboard-vite"]
 	path = 3_react_app_structure_and_design/3_react_app_structure_and_design/lab-product-dashboard-vite
 	url = https://github.com/nrathbone-turing/lab-product-dashboard-vite
+[submodule "4_event_handlers_in_react/4_event_handlers_in_react/react-event-handling-vite-lab"]
+	path = 4_event_handlers_in_react/4_event_handlers_in_react/react-event-handling-vite-lab
+	url = https://github.com/nrathbone-turing/react-event-handling-vite-lab
