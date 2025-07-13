@@ -9,7 +9,7 @@ function Header() {
       </div>
       <div className="header-center">
         <a href="https://github.com/nrathbone-turing" target="_blank" rel="noreferrer">
-          SWE Fundamentals GitHub Repo
+          Personal Repo Link
         </a>
       </div>
       <div className="header-right">
