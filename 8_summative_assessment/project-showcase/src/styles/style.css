@@ -1,0 +1,92 @@
+/* style.css */
+
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f6fa;
+    color: #333;
+}
+
+/* Header Section */
+
+header {
+    background-color: #3b4c63;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+header a {
+    color: #ffcc00;
+    text-decoration: none;
+    display: block;
+    margin-top: 0.5em;
+}
+
+/* About Section */
+
+#about {
+    padding: 2em;
+    background-color: #e9eef5;
+}
+
+#about h2 {
+    margin-top: 0;
+}
+
+#about ul {
+    list-style-type: square;
+    padding-left: 1.5em;
+}
+
+/* Projects Section */
+
+#projects {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  text-align: center;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project.placeholder {
+  opacity: 0.5;
+  border: 2px dashed #ccc;
+  padding: 1rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: #3b4c63;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
