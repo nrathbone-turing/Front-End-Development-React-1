@@ -10,3 +10,9 @@
 [submodule "5_state_foundations/5_state_foundations/lab-react-hooks-state"]
 	path = 5_state_foundations/5_state_foundations/lab-react-hooks-state
 	url = https://github.com/nrathbone-turing/lab-react-hooks-state
+[submodule "7_state_management/react-hogwild-vite"]
+	path = 7_state_management/react-hogwild-vite
+	url = https://github.com/nrathbone-turing/react-hogwild-vite
+[submodule "4_mod/6_controlled_forms/technical-lesson-react-forms"]
+	path = 4_mod/6_controlled_forms/technical-lesson-react-forms
+	url = https://github.com/nrathbone-turing/technical-lesson-react-forms
