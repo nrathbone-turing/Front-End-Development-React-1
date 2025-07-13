@@ -12,7 +12,7 @@ function ProjectDetail({ projects}) {
   return (
     <main>
       <h2>{project.title}</h2>
-      <img src={project.image} alt={project.alt || project.title} />
+      <img src={project.image} alt={project.alt || project.title} className="project-image"/>
       <p>{project.description}</p>
       {project.link && (
         <p>

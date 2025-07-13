@@ -13,10 +13,13 @@ body {
 /* Header Section */
 
 header {
-    background-color: #3b4c63;
-    color: white;
-    text-align: center;
-    padding: 1.5em 0;
+  background-color: #3b4c63;
+  color: white;
+  padding: 1.5em 2em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header a {
@@ -69,10 +72,14 @@ header a {
   align-items: center;
 }
 
-.project img {
-  max-width: 100%;
-  height: auto;
+.project-image {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  object-fit: cover;
   border-radius: 8px;
+  display: block;
+  margin: 0 auto;
 }
 
 .project.placeholder {

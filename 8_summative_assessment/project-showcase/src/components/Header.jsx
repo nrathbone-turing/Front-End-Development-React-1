@@ -4,12 +4,17 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <header>
-      <h1>Nick Rathbone</h1>
-      <a href="https://github.com/nrathbone-turing/swe_fundamentals" target="_blank" rel="noreferrer">
-        SWE Fundamentals GitHub Repo
-      </a>
-      <br />
-      <Link to="/add">Add New Project</Link>
+      <div className="header-left">
+        <h1>Nick Rathbone</h1>
+      </div>
+      <div className="header-center">
+        <a href="https://github.com/nrathbone-turing" target="_blank" rel="noreferrer">
+          SWE Fundamentals GitHub Repo
+        </a>
+      </div>
+      <div className="header-right">
+        <Link to="/add">Add New Project</Link>
+      </div>
     </header>
   );
 }
