@@ -1,8 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import projects from '../data/projects';
 
-function ProjectDetail() {
+function ProjectDetail({ projects}) {
   const { id } = useParams();
   const project = projects.find(p => p.id === parseInt(id));
 

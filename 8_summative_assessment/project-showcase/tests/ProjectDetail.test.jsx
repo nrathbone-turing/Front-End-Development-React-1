@@ -10,7 +10,10 @@ test('renders the correct project detail based on route param', () => {
   render(
     <MemoryRouter initialEntries={[`/projects/${testProject.id}`]}>
       <Routes>
-        <Route path="/projects/:id" element={<ProjectDetail />} />
+        <Route
+          path="/projects/:id"
+          element={<ProjectDetail projects={projects} />}
+        />
       </Routes>
     </MemoryRouter>
   );

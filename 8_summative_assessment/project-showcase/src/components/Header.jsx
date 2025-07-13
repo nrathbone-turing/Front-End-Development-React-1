@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -7,6 +8,8 @@ function Header() {
       <a href="https://github.com/nrathbone-turing/swe_fundamentals" target="_blank" rel="noreferrer">
         SWE Fundamentals GitHub Repo
       </a>
+      <br />
+      <Link to="/add">Add New Project</Link>
     </header>
   );
 }
