@@ -5,4 +5,5 @@ export default {
   },
   moduleFileExtensions: ['js', 'jsx'],
   setupFilesAfterEnv: ['@testing-library/jest-dom'],
+  setupFiles: ['./jest.setup.js'],
 };
